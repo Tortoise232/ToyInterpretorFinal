@@ -28,6 +28,9 @@ public class MyList<E> implements IList<E> {
         return list.iterator();
     }
 
+
+    public ArrayList<E> getList(){ return list;}
+
     @Override
     public String toString(){
         String result = new String();

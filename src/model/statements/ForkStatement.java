@@ -15,7 +15,11 @@ public class ForkStatement implements IStatement {
     public PrgState execute(PrgState p) {
         IStak<IStatement> myStack = new MyStack<IStatement>();
         MyDictionary<String, Integer> newDict = new MyDictionary<String, Integer>((MyDictionary<String, Integer>)p.getTable());
-        myStack.push(myState);
+        try {
+            myStack = (IStak<IStatement>)p.getStack().clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
         PrgState newPrgState = new PrgState(newDict,
                 myStack,
                 p.getOutput(),

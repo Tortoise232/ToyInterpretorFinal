@@ -61,3 +61,1074 @@ Output(1): Output: [2]
 FileTable(1):  file.txt 0 
 Heap(2): {1=2, 2=2}
 
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(1): [{ v = 2; v }]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 2
+Stack(2): [v, v = 2]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(1): [v]
+SymbolTable(2): {a=2, v=2}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 2
+Stack(0): []
+SymbolTable(2): {a=2, v=2}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+

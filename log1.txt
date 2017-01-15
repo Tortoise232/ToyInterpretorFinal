@@ -68,3 +68,1193 @@ Output(1): Output: [2]
 FileTable(1):  file.txt 0 
 Heap(2): {1=2, 2=2}
 
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
+SymbolTable(1): {a=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
+SymbolTable(2): {a=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
+SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
+SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(0): {}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), new Valcea(2)]
+SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(1): {1=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(2): [while(v) do(v = 0), v = 0]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(1): [while(v) do(v = 0)]
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {1=2, 2=2}
+

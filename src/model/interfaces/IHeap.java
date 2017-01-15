@@ -1,5 +1,7 @@
 package model.interfaces;
 
+import model.Tuple;
+
 import java.io.Serializable;
 import java.util.*;
 
@@ -24,6 +26,9 @@ public interface IHeap extends Serializable{
 
     //string representation of the heap
     public String toString();
+
+    //returns the heap as an array of tuples; made for javafx
+    public ArrayList<Tuple<Integer,Integer>> getArray();
 
     //size of elements stored in the heap
     public int size();

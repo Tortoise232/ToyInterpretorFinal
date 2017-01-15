@@ -40,4 +40,8 @@ public class MyStack<T> implements IStak<T> {
     public String toString(){
         return "" + myStack;
     }
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }

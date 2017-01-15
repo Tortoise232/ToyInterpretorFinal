@@ -1,7 +1,9 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.BiConsumer;
 
 import model.interfaces.IExpression;
 import model.interfaces.IHeap;
@@ -54,6 +56,15 @@ public class MyHeap implements IHeap {
     @Override
     public HashMap<Integer, Integer> getMap() {
         return this.map;
+    }
+
+    @Override
+    public ArrayList<Tuple<Integer,Integer>> getArray(){
+        ArrayList<Tuple<Integer,Integer>> result = new ArrayList<>();
+        for(Integer key : map.keySet()){
+            result.add(new Tuple<Integer,Integer>(key, map.get(key)));
+        }
+        return result;
     }
 
     @Override
