@@ -1258,3 +1258,157 @@ Output(1): Output: [2]
 FileTable(1):  file.txt 0 
 Heap(2): {1=2, 2=2}
 
+ID: 1
+Stack(3): [new Eroina(2), new Valcea(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Eroina(2), new Valcea(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Eroina(2), new Valcea(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Eroina(2), new Valcea(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Eroina(2)]
+SymbolTable(2): {Valcea=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Eroina=3, Valcea=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(3): [new Eroina(2), new Valcea(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Eroina(2), new Valcea(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Eroina(2), new Valcea(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Eroina(2), new Valcea(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Eroina(2)]
+SymbolTable(2): {Valcea=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Eroina=3, Valcea=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Eroina(2), new Valcea(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Eroina(2), new Valcea(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Eroina(2), new Valcea(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Eroina(2), new Valcea(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Eroina(2)]
+SymbolTable(2): {Valcea=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Eroina=3, Valcea=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+

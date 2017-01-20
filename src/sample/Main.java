@@ -4,6 +4,8 @@ import controller.Controller;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -51,8 +53,8 @@ public class Main extends Application{
         IStatement openFileState = new openRFile("file.txt", "VarFromFile");
 
         //heap code
-        IStatement newStuff = new newStatement("Valcea", constExpr);
-        IStatement newStuff2 = new newStatement("Eroina", constExpr);
+        IStatement newStuff = new newStatement("Test", constExpr);
+        IStatement newStuff2 = new newStatement("Copac", constExpr);
 
         IStatement compState15 = new CompoundStatement(compState, newStuff);
         CompoundStatement compState2 = new CompoundStatement(compState15, newStuff2);
@@ -86,8 +88,8 @@ public class Main extends Application{
                 myController.executeOneStep(myController.getRepo().getPrgStates().get(0));
             }
         });
-        selectExample.setTitle("> SELECT EXAMPLE");
-        exampleView.addRow(0,new Label("Choose a program to run:"));
+        selectExample.setTitle("START");
+        //exampleView.addRow(0,new Label("Choose a program to run:"));
         exampleView.addRow(1,examples);
         selectExample.setScene(new Scene(exampleView, 400, 200));
         selectExample.setResizable(false);
@@ -121,7 +123,7 @@ public class Main extends Application{
         heapColumn1.setCellValueFactory(new PropertyValueFactory<Tuple<Integer,Integer>,String>("x"));
         heapColumn2.setCellValueFactory(new PropertyValueFactory<Tuple<Integer,Integer>,String>("y"));
         heapTable.getColumns().addAll(heapColumn1, heapColumn2);
-        programStateGrid.addColumn(0,new Label("Heap:"),heapTable);
+        programStateGrid.addColumn(1,new Label("Heap:"),heapTable);
         heapTable.setItems(FXCollections.observableArrayList(originalPrgState.getHeap().getArray()));
 
         //init out
@@ -153,9 +155,23 @@ public class Main extends Application{
                     //startSymTable(observable);
                     //startExeStack(observable);
             }});
+        programStateGrid.addColumn(2,new Label("PrgState: "),stateView);
 
-        programStateGrid.addColumn(3,new Label("PrgState: "),stateView);
-        programStateStage.setScene(new Scene(programStateGrid,800,400));
+        //init run button
+        Button executeProgram = new Button ("RUN");
+        executeProgram.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent e){
+               myController.allStep();
+                heapTable.setItems(FXCollections.observableArrayList(originalPrgState.getHeap().getArray()));
+                outView.refresh();
+                fileTableView.refresh();
+                stateView.refresh();
+            }
+        });
+
+        //programStateGrid.addColumn(4, executeProgram);
+        programStateStage.setScene(new Scene(programStateGrid,400,600));
         programStateStage.show();
     }
 
