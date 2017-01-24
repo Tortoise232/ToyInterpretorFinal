@@ -8,16 +8,16 @@ public class Tuple<TypeA,TypeB> implements Serializable{
      *
      */
     private static final long serialVersionUID = 1L;
-    public TypeA x;
-    public TypeB y;
+    public TypeA first;
+    public TypeB second;
     public Tuple(TypeA a, TypeB b){
-        this.x = a;
-        this.y = b;
+        this.first = a;
+        this.second = b;
     }
     @Override
     public String toString(){
         String result;
-        result = "(" + x + ", " + y + ")";
+        result = "(" + first + ", " + second + ")";
         return result;
     }
 

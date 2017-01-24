@@ -31,4 +31,6 @@ public interface IDictionary<T,V> extends Serializable{
     //returns the size of the dictionary (nr of key & value pairs)
     public int size();
 
+    public ArrayList<String> getPairs();
+
 }

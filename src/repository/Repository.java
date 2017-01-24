@@ -85,6 +85,14 @@ public class Repository implements IRepository{
     }
 
     @Override
+    public PrgState getByID(int id) {
+        for(PrgState state: getPrgStates())
+            if(state.getID() == id)
+                return state;
+        return null;
+    }
+
+    @Override
     public ArrayList<PrgState> getPrgStates(){
         return listOfStates;
     }

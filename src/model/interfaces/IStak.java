@@ -1,6 +1,7 @@
 package model.interfaces;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Iterator;
 
 public interface IStak<T> extends Serializable, Cloneable{
@@ -10,4 +11,5 @@ public interface IStak<T> extends Serializable, Cloneable{
     public boolean isEmpty();
     public int size();
     public Object clone() throws CloneNotSupportedException;
+    public ArrayList<String> getList();
 }

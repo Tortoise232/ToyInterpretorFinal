@@ -53,7 +53,7 @@ public class FileTable implements Serializable{
             e.printStackTrace();
 
         }
-        return map.get(id).y;
+        return map.get(id).second;
 
     }
     public String toString(){
@@ -69,8 +69,8 @@ public class FileTable implements Serializable{
         return map.size();
     }
 
-    public ArrayList<Tuple<Integer,String>> getArray(){
-        ArrayList<Tuple<Integer,String>> result = new ArrayList<>();
+    public ArrayList<Tuple> getArray(){
+        ArrayList<Tuple> result = new ArrayList<>();
         for(String name: checkMap.keySet()){
             result.add(new Tuple(checkMap.get(name),name));
         }

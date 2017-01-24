@@ -26,6 +26,16 @@ public class MyDictionary<T,V> implements IDictionary<T, V> {
     public int size(){
         return map.size();
     }
+
+    @Override
+    public ArrayList<String> getPairs() {
+        ArrayList<String> result = new ArrayList<>();
+        for(T key: map.keySet()){
+            result.add("" + key + " = " + map.get(key));
+        }
+        return result;
+    }
+
     @Override
     public void add(T name, V value) {
         map.put(name,value);

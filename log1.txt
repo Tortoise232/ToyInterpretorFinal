@@ -1412,3 +1412,2404 @@ Output(1): Output: [2]
 FileTable(0): 
 Heap(2): {2=2, 3=2}
 
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=4, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {4=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=5, Test=4, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {4=2, 5=2}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fread(MyVar,0), fork({ v = 2; v })]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fread(MyVar,0), fork({ v = 2; v })]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=4, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {4=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=5, Test=4, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {4=2, 5=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=5, Test=4, v=2, VarFromFile=1}
+Output(1): Output: [2]
+FileTable(1):  file.txt 1 
+Heap(2): {4=2, 5=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fread(MyVar,0), fork({ v = 2; v })]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fread(MyVar,0)]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(0): []
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(1): Output: [2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }, fork({ v = 2; v })]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(2): {Test=2, v=2}
+Output(0): Output: []
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(3): {Test=2, v=2, VarFromFile=0}
+Output(0): Output: []
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(2): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }, fork({ v = 2; v })]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }, fork({ v = 2; v })]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(1): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+SymbolTable(0): {}
+Output(0): Output: []
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+SymbolTable(0): {}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+SymbolTable(0): {}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+SymbolTable(1): {v=2}
+Output(1): Output: [2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+SymbolTable(1): {v=2}
+Output(2): Output: [2, 2]
+FileTable(0): 
+Heap(0): {}
+
+ID: 1
+Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
+SymbolTable(2): {Test=2, v=2}
+Output(2): Output: [2, 2]
+FileTable(0): 
+Heap(1): {2=2}
+
+ID: 1
+Stack(1): [fopen(file.txt,VarFromFile)]
+SymbolTable(3): {Copac=3, Test=2, v=2}
+Output(2): Output: [2, 2]
+FileTable(0): 
+Heap(2): {2=2, 3=2}
+
+ID: 1
+Stack(0): []
+SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
+Output(2): Output: [2, 2]
+FileTable(1):  file.txt 0 
+Heap(2): {2=2, 3=2}
+

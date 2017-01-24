@@ -16,6 +16,11 @@ public class MyFileTable<T, V> implements IDictionary<T, V> {
     }
 
     @Override
+    public ArrayList<String> getPairs() {
+        return null;
+    }
+
+    @Override
     public void add(T name, V value) {
         BufferedReader br = null;
 

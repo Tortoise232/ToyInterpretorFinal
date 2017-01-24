@@ -120,6 +120,16 @@ public class Controller {
         }
         executor.shutdownNow();
     }
+
+    public void allStepGUI() {
+        executor = Executors.newFixedThreadPool(10);
+        List<PrgState> prgList=removeCompletedPrg(this.getRepo().getPrgStates());
+        if(prgList.size() == 0)
+            return;
+        this.oneStepForAll(prgList);
+        executor.shutdownNow();
+    }
+
     //return the first position of a given character in the given string
     public int getFirstPos(String s, char a){
         for(int counter = 0; counter < s.toCharArray().length; counter++)

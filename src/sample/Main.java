@@ -4,6 +4,7 @@ import controller.Controller;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -58,13 +59,15 @@ public class Main extends Application{
 
         IStatement compState15 = new CompoundStatement(compState, newStuff);
         CompoundStatement compState2 = new CompoundStatement(compState15, newStuff2);
+        CompoundStatement cs3 = new CompoundStatement(compState2,openFileState);
 
-        myStatements.add(compState2);
+        myStatements.add(cs3);
         IStatement forkState = new ForkStatement(compState);
         IStatement readFile = new readFile(new ConstExpression(0), "MyVar");
         CompoundStatement compState3 = new CompoundStatement(forkState, readFile);
+        CompoundStatement cs4 = new CompoundStatement(forkState, cs3);
 
-        myStatements.add(compState3);
+        myStatements.add(cs4);
 
         return myStatements;
     }
@@ -85,7 +88,6 @@ public class Main extends Application{
             @Override
             public void changed(ObservableValue<? extends CompoundStatement> observable, CompoundStatement oldValue, CompoundStatement newValue) {
                 startProgram(newValue);
-                myController.executeOneStep(myController.getRepo().getPrgStates().get(0));
             }
         });
         selectExample.setTitle("START");
@@ -107,71 +109,87 @@ public class Main extends Application{
         return myController;
     }
 
+
+
     public void startProgram(CompoundStatement statement){
         myController = initController(statement);
-        PrgState originalPrgState = myController.getRepo().getPrgStates().get(0);
-
         //visual elements
         Stage programStateStage = new Stage();
         GridPane programStateGrid = new GridPane();
         TextField nrPrgStates = new TextField("" + myController.getRepo().getPrgStates().size());
 
         //init heap
-        TableView<Tuple<Integer,Integer>> heapTable = new TableView<>();
-        TableColumn heapColumn1 = new TableColumn("LOCATION");
-        TableColumn heapColumn2 = new TableColumn("VALUE");
-        heapColumn1.setCellValueFactory(new PropertyValueFactory<Tuple<Integer,Integer>,String>("x"));
-        heapColumn2.setCellValueFactory(new PropertyValueFactory<Tuple<Integer,Integer>,String>("y"));
-        heapTable.getColumns().addAll(heapColumn1, heapColumn2);
+        ListView<Tuple> heapTable = new ListView<>();
         programStateGrid.addColumn(1,new Label("Heap:"),heapTable);
-        heapTable.setItems(FXCollections.observableArrayList(originalPrgState.getHeap().getArray()));
 
         //init out
         ListView<Integer> outView = new ListView<>();
-        outView.setItems(FXCollections.observableArrayList(originalPrgState.getOutput().getList()));
         programStateGrid.addColumn(1,new Label("Out: "),outView);
 
         //initFileTable
-        TableView<Tuple<Integer,String>> fileTableView = new TableView<>();
-        TableColumn fileColumn1 = new TableColumn("ID");
-        TableColumn fileColumn2 = new TableColumn("NAME");
-        fileColumn1.setCellValueFactory(new PropertyValueFactory<Tuple<Integer,String>,String>("x"));
-        fileColumn2.setCellValueFactory(new PropertyValueFactory<Tuple<Integer,String>,String>("y"));
-        fileTableView.getColumns().addAll(fileColumn1,fileColumn2);
-        fileTableView.setItems(FXCollections.observableArrayList(originalPrgState.getFileTable().getArray()));
+        ListView<Tuple> fileTableView = new ListView<>();
         programStateGrid.addColumn(2,new Label("FileTable: "), fileTableView);
 
+        //initiate statement stack
+        ListView<String> stackView = new ListView<>();
+        programStateGrid.addColumn(3,new Label("ExeStack: "), stackView);
 
         //init PrgState list
         ListView<Integer> stateView = new ListView<>();
         ArrayList<Integer> prgStateIDs = new ArrayList<>();
+        prgStateIDs.clear();
         for(PrgState state: myController.getRepo().getPrgStates()){
                prgStateIDs.add(state.getID());
         }
+
+        //init SymTable
+        ListView<String> symtable = new ListView<>();
+        programStateGrid.addColumn(2, new Label("SymTable: "),symtable);
+
         stateView.setItems(FXCollections.observableArrayList(prgStateIDs));
         stateView.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<Integer>() {
             @Override
             public void changed(ObservableValue<? extends Integer> observable, Integer oldValue, Integer newValue) {
-                    //startSymTable(observable);
-                    //startExeStack(observable);
+                PrgState originalPrgState = myController.getRepo().getByID(stateView.getSelectionModel().getSelectedItem());
+                heapTable.setItems(FXCollections.observableArrayList(originalPrgState.getHeap().getArray()));
+                heapTable.refresh();
+                outView.setItems(FXCollections.observableArrayList(originalPrgState.getOutput().getList()));
+                fileTableView.setItems(FXCollections.observableArrayList(originalPrgState.getFileTable().getArray()));
+                fileTableView.refresh();
+                stackView.setItems(FXCollections.observableArrayList(originalPrgState.getStack().getList()));
+                symtable.setItems(FXCollections.observableArrayList(originalPrgState.getTable().getPairs()));
+                prgStateIDs.clear();
+                for(PrgState state: myController.getRepo().getPrgStates()){
+                    prgStateIDs.add(state.getID());
+                }
+                stateView.setItems(FXCollections.observableArrayList(prgStateIDs));
             }});
-        programStateGrid.addColumn(2,new Label("PrgState: "),stateView);
+        programStateGrid.addColumn(3,new Label("PrgState: "),stateView);
 
         //init run button
         Button executeProgram = new Button ("RUN");
         executeProgram.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent e){
-               myController.allStep();
+                myController.allStepGUI();
+                PrgState originalPrgState = myController.getRepo().getByID(stateView.getSelectionModel().getSelectedItem());
                 heapTable.setItems(FXCollections.observableArrayList(originalPrgState.getHeap().getArray()));
-                outView.refresh();
-                fileTableView.refresh();
-                stateView.refresh();
+                outView.setItems(FXCollections.observableArrayList(originalPrgState.getOutput().getList()));
+                fileTableView.setItems(FXCollections.observableArrayList(originalPrgState.getFileTable().getArray()));
+                stackView.setItems(FXCollections.observableArrayList(originalPrgState.getStack().getList()));
+                symtable.setItems(FXCollections.observableArrayList(originalPrgState.getTable().getPairs()));
+                prgStateIDs.clear();
+                for(PrgState state: myController.getRepo().getPrgStates()){
+                    prgStateIDs.add(state.getID());
+                }
+                if(prgStateIDs.size() > 0)
+                    stateView.setItems(FXCollections.observableArrayList(prgStateIDs));
+
             }
         });
 
-        //programStateGrid.addColumn(4, executeProgram);
-        programStateStage.setScene(new Scene(programStateGrid,400,600));
+        programStateGrid.addRow(3, executeProgram);
+        programStateStage.setScene(new Scene(programStateGrid,800,600));
         programStateStage.show();
     }
 
