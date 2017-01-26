@@ -28,10 +28,10 @@ public class MyDictionary<T,V> implements IDictionary<T, V> {
     }
 
     @Override
-    public ArrayList<String> getPairs() {
-        ArrayList<String> result = new ArrayList<>();
+    public ArrayList<Tuple> getPairs() {
+        ArrayList<Tuple> result = new ArrayList<>();
         for(T key: map.keySet()){
-            result.add("" + key + " = " + map.get(key));
+            result.add(new Tuple(key,map.get(key)));
         }
         return result;
     }

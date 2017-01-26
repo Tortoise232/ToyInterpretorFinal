@@ -2,15 +2,22 @@ package model;
 import java.io.*;
 import java.util.concurrent.Callable;
 
+import com.sun.xml.internal.bind.v2.model.core.ID;
 import model.interfaces.*;
+
+
 public class PrgState implements Serializable, Callable{
     private static final long serialVersionUID = -5116545090005092303L;
     int id = 1;
+    public static int maxID = 1;
+    protected ILatchTable<Integer,Integer> latchTable;
     public  IDictionary<String,Integer> symbolTable;
     protected  IStak<IStatement> stack;
     public  IList<Integer> output;
     protected  FileTable fileTable;
     public IHeap heap;
+    protected IStak<MyStack<IStatement>> stacks;
+    protected ProcTable<String,Procedure> procTable;
     public boolean isNotComplete(){
         return !stack.isEmpty();
     }
@@ -35,9 +42,17 @@ public class PrgState implements Serializable, Callable{
         this.heap = newHeap;
     }
 
+    public void setStacks(IStak<MyStack<IStatement>> stacks){ this.stacks = stacks; }
+
+    public void setProcTable(ProcTable<String,Procedure> newProcTable){ this.procTable = newProcTable;}
+
+    public void setLatchTable(LatchTable newLatchTable) { this.latchTable = newLatchTable;}
+
     public IHeap getHeap(){
         return this.heap;
     }
+
+    public IStak<MyStack<IStatement>> getStacks() { return stacks;}
 
     public IStak<IStatement> getStack(){
         return stack;
@@ -55,24 +70,37 @@ public class PrgState implements Serializable, Callable{
         return fileTable;
     }
 
+    public ProcTable getProcTable() {return procTable;}
+
+    public ILatchTable getLatchTable() {return latchTable;}
+
     public PrgState(){
         this.heap = new MyHeap();
         this.symbolTable = new MyDictionary();
-        this.stack = new MyStack();
+        this.stacks = new MyStack();
+        this.stack = new MyStack(); //top of the stacks
         this.output = new MyList();
+        this.procTable = new ProcTable<>();
         this.fileTable = new FileTable();
+        this.latchTable = new LatchTable();
     }
 
     public PrgState(IDictionary<String,Integer> dict,
                     IStak<IStatement> stack,
                     IList<Integer> output,
                     FileTable fileTable,
-                    IHeap heap, int id){
+                    IHeap heap,
+                    ProcTable<String,Procedure> procTable,
+                    ILatchTable latchTable,
+                    int id){
         this.heap = heap;
         this.symbolTable = dict;
+        this.stacks = null;
         this.stack = stack;
         this.output = output;
         this.fileTable = fileTable;
+        this.procTable = procTable;
+        this.latchTable = latchTable;
         this.id = id;
     }
 
@@ -98,6 +126,7 @@ public class PrgState implements Serializable, Callable{
         result += "SymbolTable(" + symbolTable.size() + "): " + symbolTable + "\n";
         result += "Output(" + output.size() + "): " + output + "\n";
         result += "FileTable(" + fileTable.size() + "): " + fileTable + "\n";
+        result += "LatchTable: " + latchTable + "\n";
         result += "Heap(" + heap.size() + "): " + heap + "\n";
         return result;
     }

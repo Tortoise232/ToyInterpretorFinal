@@ -14,6 +14,23 @@ public class Tuple<TypeA,TypeB> implements Serializable{
         this.first = a;
         this.second = b;
     }
+
+    public TypeA getFirst(){
+        return first;
+    }
+
+    public void setFirst(TypeA newValue){
+        first = newValue;
+    }
+
+    public TypeB getSecond(){
+        return second;
+    }
+
+    public void setSecond(TypeB newValue){
+        second = newValue;
+    }
+
     @Override
     public String toString(){
         String result;

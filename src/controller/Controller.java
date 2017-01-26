@@ -44,7 +44,7 @@ public class Controller {
     }
 
     //executes one statement in the program with state p
-    public void executeOneStep(PrgState p){
+    public void executeOneStep(PrgState p) throws Exception {
         IStak<IStatement> exec = p.getStack();
         if(!exec.isEmpty()){
             IStatement statement = exec.pop();

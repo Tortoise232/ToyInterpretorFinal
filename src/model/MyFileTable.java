@@ -16,7 +16,7 @@ public class MyFileTable<T, V> implements IDictionary<T, V> {
     }
 
     @Override
-    public ArrayList<String> getPairs() {
+    public ArrayList<Tuple> getPairs() {
         return null;
     }
 

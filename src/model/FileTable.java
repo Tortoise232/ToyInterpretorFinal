@@ -72,7 +72,7 @@ public class FileTable implements Serializable{
     public ArrayList<Tuple> getArray(){
         ArrayList<Tuple> result = new ArrayList<>();
         for(String name: checkMap.keySet()){
-            result.add(new Tuple(checkMap.get(name),name));
+            result.add(new Tuple(name, checkMap.get(name)));
         }
         return result;
     }

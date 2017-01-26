@@ -19,4 +19,9 @@ public class notEqualExpression implements IExpression {
 
     }
 
+    @Override
+    public String toString(){
+        return "" + a + "!=" + b;
+    }
+
 }

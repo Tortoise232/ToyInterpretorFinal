@@ -18,5 +18,8 @@ public class equalExpression implements IExpression {
         return 0;
 
     }
-
+    @Override
+    public String toString(){
+        return "" + a + "==" + b;
+    }
 }

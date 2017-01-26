@@ -12,4 +12,5 @@ public interface IStak<T> extends Serializable, Cloneable{
     public int size();
     public Object clone() throws CloneNotSupportedException;
     public ArrayList<String> getList();
+    public T top();
 }

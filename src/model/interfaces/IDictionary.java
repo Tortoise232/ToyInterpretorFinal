@@ -1,5 +1,7 @@
 package model.interfaces;
 
+import model.Tuple;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -31,6 +33,6 @@ public interface IDictionary<T,V> extends Serializable{
     //returns the size of the dictionary (nr of key & value pairs)
     public int size();
 
-    public ArrayList<String> getPairs();
+    public ArrayList<Tuple> getPairs();
 
 }

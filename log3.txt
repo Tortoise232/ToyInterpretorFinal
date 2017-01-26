@@ -1,52 +1,44 @@
-ID: 2
-Stack(1): [{ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }]
+ID: 3
+Stack(1): [{ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }]
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(0): []
 FileTable(0): 
 LatchTable: {0=3}
 Heap(3): {2=2, 3=3, 4=4}
 
-ID: 2
-Stack(2): [countDown(cnt), { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }]
+ID: 3
+Stack(2): [countDown(cnt), { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }]
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(0): []
 FileTable(0): 
 LatchTable: {0=3}
 Heap(3): {2=2, 3=3, 4=4}
 
-ID: 2
-Stack(3): [countDown(cnt), readHeap(v1), writeHeap(v1,(readHeap(v1) * 10))]
-SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
-Output(0): []
-FileTable(0): 
-LatchTable: {0=3}
-Heap(3): {2=2, 3=3, 4=4}
-
-ID: 2
-Stack(2): [countDown(cnt), readHeap(v1)]
+ID: 3
+Stack(3): [countDown(cnt), readHeap(v2), writeHeap(v2,(readHeap(v2) * 10))]
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(0): []
 FileTable(0): 
 LatchTable: {0=3}
 Heap(3): {2=20, 3=3, 4=4}
 
-ID: 2
-Stack(1): [countDown(cnt)]
+ID: 3
+Stack(2): [countDown(cnt), readHeap(v2)]
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(1): [20]
 FileTable(0): 
 LatchTable: {0=3}
 Heap(3): {2=20, 3=30, 4=4}
 
-ID: 2
-Stack(0): []
+ID: 3
+Stack(1): [countDown(cnt)]
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(3): [20, 2, 30]
 FileTable(0): 
 LatchTable: {0=2}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(0): []
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(5): [20, 2, 30, 3, 40]
@@ -54,7 +46,7 @@ FileTable(0):
 LatchTable: {0=1}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(0): []
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(6): [20, 2, 30, 3, 40, 4]
@@ -62,7 +54,7 @@ FileTable(0):
 LatchTable: {0=0}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(0): []
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(6): [20, 2, 30, 3, 40, 4]
@@ -70,7 +62,7 @@ FileTable(0):
 LatchTable: {0=0}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(0): []
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(7): [20, 2, 30, 3, 40, 4, 0]
@@ -78,7 +70,7 @@ FileTable(0):
 LatchTable: {0=0}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(0): []
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(7): [20, 2, 30, 3, 40, 4, 0]
@@ -86,7 +78,7 @@ FileTable(0):
 LatchTable: {0=0}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(0): []
 SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
 Output(8): [20, 2, 30, 3, 40, 4, 0, 0]
@@ -94,129 +86,97 @@ FileTable(0):
 LatchTable: {0=0}
 Heap(3): {2=20, 3=30, 4=40}
 
-ID: 2
+ID: 3
 Stack(1): [{ v; v = (v - 1) }]
-SymbolTable(1): {v=0}
-Output(0): []
+SymbolTable(1): {v=1}
+Output(1): [0]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(2): [v = (v - 1), v]
-SymbolTable(1): {v=0}
-Output(0): []
+SymbolTable(1): {v=1}
+Output(1): [0]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(1): [v = (v - 1)]
+SymbolTable(1): {v=1}
+Output(2): [0, 1]
+FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 3
+Stack(0): []
 SymbolTable(1): {v=0}
-Output(1): [0]
-FileTable(0): 
-LatchTable: {}
-Heap(0): {}
-
-ID: 2
-Stack(0): []
-SymbolTable(1): {v=-1}
-Output(1): [0]
-FileTable(0): 
-LatchTable: {}
-Heap(0): {}
-
-ID: 2
-Stack(0): []
-SymbolTable(1): {v=-1}
-Output(1): [0]
-FileTable(0): 
-LatchTable: {}
-Heap(0): {}
-
-ID: 2
-Stack(0): []
-SymbolTable(1): {v=-1}
-Output(1): [0]
-FileTable(0): 
-LatchTable: {}
-Heap(0): {}
-
-ID: 2
-Stack(0): []
-SymbolTable(1): {v=-1}
 Output(2): [0, 1]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(2): [0, 1]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(2): [0, 1]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
-Output(2): [0, 1]
-FileTable(0): 
-LatchTable: {}
-Heap(0): {}
-
-ID: 2
-Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(3): [0, 1, 2]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(3): [0, 1, 2]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(3): [0, 1, 2]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(3): [0, 1, 2]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(3): [0, 1, 2]
 FileTable(0): 
 LatchTable: {}
 Heap(0): {}
 
-ID: 2
+ID: 3
 Stack(0): []
-SymbolTable(1): {v=-1}
+SymbolTable(1): {v=0}
 Output(4): [0, 1, 2, 30]
 FileTable(0): 
 LatchTable: {}

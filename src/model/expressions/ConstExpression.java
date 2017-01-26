@@ -7,8 +7,8 @@ public class ConstExpression implements IExpression{
 
     public ConstExpression(int value){
         this.value = value;
-        if(value == 1)
-            System.out.println("WE ARE NUMBER ONE, HEY");
+        //if(value == 1)
+           // System.out.println("WE ARE NUMBER ONE, HEY");
     }
 
     public ConstExpression(String s){

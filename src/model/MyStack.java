@@ -61,4 +61,9 @@ public class MyStack<T> implements IStak<T> {
 
         return result;
     }
+
+    @Override
+    public T top() {
+        return myStack.peek();
+    }
 }

@@ -1,3815 +1,416 @@
 ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(7): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile), fork({ v = 2; v })]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(6): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0), fopen(file.txt,VarFromFile)]
-SymbolTable(1): {a=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2, fread(MyVar,0)]
-SymbolTable(2): {a=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(4): [while(v) do(v = 0), new Valcea(2), new Eroina(2), v = 2]
-SymbolTable(3): {a=2, VarFromFile=0, MyVar=3}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(3): [while(v) do(v = 0), new Valcea(2), new Eroina(2)]
-SymbolTable(4): {a=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(0): {}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), new Valcea(2)]
-SymbolTable(5): {a=2, Eroina=1, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(1): {1=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(2): [while(v) do(v = 0), v = 0]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=2, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(1): [while(v) do(v = 0)]
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(6): {a=2, Eroina=1, Valcea=2, v=0, VarFromFile=0, MyVar=3}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {1=2, 2=2}
-
-ID: 1
-Stack(3): [new Eroina(2), new Valcea(2), { v = 2; v }]
+Stack(2): [cnt, { { { { { { { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }; fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }) }; fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }) }; fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }) }; await(cnt) }; cnt }; countDown(cnt) }]
 SymbolTable(0): {}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(4): [new Eroina(2), new Valcea(2), v, v = 2]
+Stack(3): [cnt, countDown(cnt), { { { { { { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }; fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }) }; fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }) }; fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }) }; await(cnt) }; cnt }]
 SymbolTable(0): {}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [new Eroina(2), new Valcea(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
+Stack(4): [cnt, countDown(cnt), cnt, { { { { { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }; fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }) }; fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }) }; fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }) }; await(cnt) }]
+SymbolTable(0): {}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(2): [new Eroina(2), new Valcea(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
+Stack(5): [cnt, countDown(cnt), cnt, await(cnt), { { { { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }; fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }) }; fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }) }; fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }) }]
+SymbolTable(0): {}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(1): [new Eroina(2)]
-SymbolTable(2): {Valcea=2, v=2}
-Output(1): Output: [2]
+Stack(6): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), { { { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }; fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }) }; fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }) }]
+SymbolTable(0): {}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 1
+Stack(7): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), { { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }; fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }) }]
+SymbolTable(0): {}
+Output(0): []
+FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 1
+Stack(8): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), { { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }; newLatch(cnt,readHeap(v2)) }]
+SymbolTable(0): {}
+Output(0): []
+FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 1
+Stack(9): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), newLatch(cnt,readHeap(v2)), { { writeHeap(v1,2); writeHeap(v2,3) }; writeHeap(v3,4) }]
+SymbolTable(0): {}
+Output(0): []
+FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 1
+Stack(10): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), newLatch(cnt,readHeap(v2)), writeHeap(v3,4), { writeHeap(v1,2); writeHeap(v2,3) }]
+SymbolTable(0): {}
+Output(0): []
+FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 1
+Stack(11): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), newLatch(cnt,readHeap(v2)), writeHeap(v3,4), writeHeap(v2,3), writeHeap(v1,2)]
+SymbolTable(0): {}
+Output(0): []
+FileTable(0): 
+LatchTable: {}
+Heap(0): {}
+
+ID: 1
+Stack(10): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), newLatch(cnt,readHeap(v2)), writeHeap(v3,4), writeHeap(v2,3)]
+SymbolTable(1): {v1=2}
+Output(0): []
+FileTable(0): 
+LatchTable: {}
 Heap(1): {2=2}
 
 ID: 1
-Stack(0): []
-SymbolTable(3): {Eroina=3, Valcea=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(3): [new Eroina(2), new Valcea(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Eroina(2), new Valcea(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Eroina(2), new Valcea(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Eroina(2), new Valcea(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Eroina(2)]
-SymbolTable(2): {Valcea=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Eroina=3, Valcea=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Eroina(2), new Valcea(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Eroina(2), new Valcea(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Eroina(2), new Valcea(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Eroina(2), new Valcea(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Eroina(2)]
-SymbolTable(2): {Valcea=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Eroina=3, Valcea=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=4, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {4=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=5, Test=4, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {4=2, 5=2}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fread(MyVar,0), fork({ v = 2; v })]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fread(MyVar,0), fork({ v = 2; v })]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(9): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), newLatch(cnt,readHeap(v2)), writeHeap(v3,4)]
+SymbolTable(2): {v1=2, v2=3}
+Output(0): []
 FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
+LatchTable: {}
+Heap(2): {2=2, 3=3}
 
 ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(8): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) }), newLatch(cnt,readHeap(v2))]
+SymbolTable(3): {v1=2, v2=3, v3=4}
+Output(0): []
 FileTable(0): 
-Heap(0): {}
+LatchTable: {}
+Heap(3): {2=2, 3=3, 4=4}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
+Stack(7): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) }), fork({ { writeHeap(v1,(readHeap(v1) * 10)); readHeap(v1) }; countDown(cnt) })]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(0): []
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=3}
+Heap(3): {2=2, 3=3, 4=4}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
+Stack(6): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) }), fork({ { writeHeap(v2,(readHeap(v2) * 10)); readHeap(v2) }; countDown(cnt) })]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(0): []
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=3}
+Heap(3): {2=2, 3=3, 4=4}
 
 ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
+Stack(5): [cnt, countDown(cnt), cnt, await(cnt), fork({ { writeHeap(v3,(readHeap(v3) * 10)); readHeap(v3) }; countDown(cnt) })]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(0): []
 FileTable(0): 
-Heap(1): {2=2}
+LatchTable: {0=3}
+Heap(3): {2=2, 3=3, 4=4}
 
 ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
+Stack(4): [cnt, countDown(cnt), cnt, await(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(0): []
 FileTable(0): 
-Heap(2): {2=2, 3=2}
+LatchTable: {0=3}
+Heap(3): {2=2, 3=3, 4=4}
 
 ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(4): [cnt, countDown(cnt), cnt, await(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(0): []
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=3}
+Heap(3): {2=20, 3=3, 4=4}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(4): [cnt, countDown(cnt), cnt, await(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(1): [20]
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=3}
+Heap(3): {2=20, 3=30, 4=4}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(4): [cnt, countDown(cnt), cnt, await(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(3): [20, 2, 30]
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=2}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(4): [cnt, countDown(cnt), cnt, await(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(5): [20, 2, 30, 3, 40]
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=1}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
+Stack(4): [cnt, countDown(cnt), cnt, await(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(6): [20, 2, 30, 3, 40, 4]
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=0}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
+Stack(3): [cnt, countDown(cnt), cnt]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(6): [20, 2, 30, 3, 40, 4]
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=0}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=4, v=2}
-Output(1): Output: [2]
+Stack(2): [cnt, countDown(cnt)]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(7): [20, 2, 30, 3, 40, 4, 0]
 FileTable(0): 
-Heap(1): {4=2}
+LatchTable: {0=0}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=5, Test=4, v=2}
-Output(1): Output: [2]
+Stack(1): [cnt]
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(7): [20, 2, 30, 3, 40, 4, 0]
 FileTable(0): 
-Heap(2): {4=2, 5=2}
+LatchTable: {0=0}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
 Stack(0): []
-SymbolTable(4): {Copac=5, Test=4, v=2, VarFromFile=1}
-Output(1): Output: [2]
-FileTable(1):  file.txt 1 
-Heap(2): {4=2, 5=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+SymbolTable(4): {cnt=0, v1=2, v2=3, v3=4}
+Output(8): [20, 2, 30, 3, 40, 4, 0, 0]
 FileTable(0): 
-Heap(0): {}
+LatchTable: {0=0}
+Heap(3): {2=20, 3=30, 4=40}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+Stack(2): [(v * 10), { { { { { v = 0; repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3 }; x = 1 }; y = 2 }; z = 3 }; w = 4 }]
 SymbolTable(0): {}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+Stack(3): [(v * 10), w = 4, { { { { v = 0; repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3 }; x = 1 }; y = 2 }; z = 3 }]
 SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
 
 ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
+Stack(4): [(v * 10), w = 4, z = 3, { { { v = 0; repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3 }; x = 1 }; y = 2 }]
 SymbolTable(0): {}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
+Stack(5): [(v * 10), w = 4, z = 3, y = 2, { { v = 0; repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3 }; x = 1 }]
 SymbolTable(0): {}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
+Stack(6): [(v * 10), w = 4, z = 3, y = 2, x = 1, { v = 0; repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3 }]
 SymbolTable(0): {}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3, v = 0]
 SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
+Stack(6): [(v * 10), w = 4, z = 3, y = 2, x = 1, repeat { fork({ v; v = (v - 1) }); v = (v + 1) } until v==3]
+SymbolTable(1): {v=0}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
 
 ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
+Stack(6): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) })]
+SymbolTable(1): {v=0}
+Output(0): []
 FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fread(MyVar,0), fork({ v = 2; v })]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(1): [fread(MyVar,0)]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), { fork({ v; v = (v - 1) }); v = (v + 1) }]
+SymbolTable(1): {v=0}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(0): []
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(8): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), v = (v + 1), fork({ v; v = (v - 1) })]
+SymbolTable(1): {v=0}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), v = (v + 1)]
+SymbolTable(1): {v=0}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(6): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) })]
+SymbolTable(1): {v=1}
+Output(0): []
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), { fork({ v; v = (v - 1) }); v = (v + 1) }]
+SymbolTable(1): {v=1}
+Output(1): [0]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(8): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), v = (v + 1), fork({ v; v = (v - 1) })]
+SymbolTable(1): {v=1}
+Output(1): [0]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(0): Output: []
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), v = (v + 1)]
+SymbolTable(1): {v=1}
+Output(1): [0]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+Stack(6): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) })]
 SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
+Output(1): [0]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), { fork({ v; v = (v - 1) }); v = (v + 1) }]
 SymbolTable(1): {v=2}
-Output(0): Output: []
+Output(2): [0, 1]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
+Stack(8): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), v = (v + 1), fork({ v; v = (v - 1) })]
 SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
+Output(2): [0, 1]
 FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(1): Output: [2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
+Stack(7): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) }), v = (v + 1)]
 SymbolTable(1): {v=2}
-Output(0): Output: []
+Output(2): [0, 1]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
+Stack(6): [(v * 10), w = 4, z = 3, y = 2, x = 1, while(0==v==3) do({ fork({ v; v = (v - 1) }); v = (v + 1) })]
+SymbolTable(1): {v=3}
+Output(2): [0, 1]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
 
 ID: 1
-Stack(2): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }, fork({ v = 2; v })]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(5): [(v * 10), w = 4, z = 3, y = 2, x = 1]
+SymbolTable(1): {v=3}
+Output(3): [0, 1, 2]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(1): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(4): [(v * 10), w = 4, z = 3, y = 2]
+SymbolTable(2): {v=3, x=1}
+Output(3): [0, 1, 2]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(3): [(v * 10), w = 4, z = 3]
+SymbolTable(3): {v=3, x=1, y=2}
+Output(3): [0, 1, 2]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(0): Output: []
+Stack(2): [(v * 10), w = 4]
+SymbolTable(4): {v=3, x=1, y=2, z=3}
+Output(3): [0, 1, 2]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
 
 ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(0): Output: []
+Stack(1): [(v * 10)]
+SymbolTable(5): {v=3, w=4, x=1, y=2, z=3}
+Output(3): [0, 1, 2]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(2): {Test=2, v=2}
-Output(0): Output: []
-FileTable(0): 
-Heap(2): {2=2, 3=2}
 
 ID: 1
 Stack(0): []
-SymbolTable(3): {Test=2, v=2, VarFromFile=0}
-Output(0): Output: []
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(2): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }, fork({ v = 2; v })]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }, fork({ v = 2; v })]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(1): [{ { { { v = 2; v }; new Test(2) }; new Copac(2) }; fopen(file.txt,VarFromFile) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), { { { v = 2; v }; new Test(2) }; new Copac(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), { { v = 2; v }; new Test(2) }]
-SymbolTable(0): {}
-Output(0): Output: []
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), { v = 2; v }]
-SymbolTable(0): {}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(5): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v, v = 2]
-SymbolTable(0): {}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(4): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2), v]
-SymbolTable(1): {v=2}
-Output(1): Output: [2]
-FileTable(0): 
-Heap(0): {}
-
-ID: 1
-Stack(3): [fopen(file.txt,VarFromFile), new Copac(2), new Test(2)]
-SymbolTable(1): {v=2}
-Output(2): Output: [2, 2]
+SymbolTable(5): {v=3, w=4, x=1, y=2, z=3}
+Output(4): [0, 1, 2, 30]
 FileTable(0): 
+LatchTable: {}
 Heap(0): {}
-
-ID: 1
-Stack(2): [fopen(file.txt,VarFromFile), new Copac(2)]
-SymbolTable(2): {Test=2, v=2}
-Output(2): Output: [2, 2]
-FileTable(0): 
-Heap(1): {2=2}
-
-ID: 1
-Stack(1): [fopen(file.txt,VarFromFile)]
-SymbolTable(3): {Copac=3, Test=2, v=2}
-Output(2): Output: [2, 2]
-FileTable(0): 
-Heap(2): {2=2, 3=2}
-
-ID: 1
-Stack(0): []
-SymbolTable(4): {Copac=3, Test=2, v=2, VarFromFile=0}
-Output(2): Output: [2, 2]
-FileTable(1):  file.txt 0 
-Heap(2): {2=2, 3=2}
 
